@@ -28,7 +28,7 @@ const tabContent = [(
             {imageUrl.map((category) => (
                 <div className='relative'>
                     <img src={category} className='w-full h-auto'></img>
-                    <div class="flex justify-center items-center absolute inset-0 bg-gray-500 opacity-0 hover:opacity-75 transition-opacity duration-300"><EyeIcon className='w-14 h-14 hover:cursor-pointer'/></div>     
+                    <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-300 bg-gray-500 opacity-0 hover:opacity-75"><EyeIcon className='w-14 h-14 hover:cursor-pointer'/></div>     
                     </div>
             ))}
         </div>

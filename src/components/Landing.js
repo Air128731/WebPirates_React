@@ -7,6 +7,7 @@ import MainSlide from './MainSlide';
 import LogoClouds from './LogoCluds';
 import ShowCaseTabs from './ShowCaseTabs';
 import WorkflowTabs from './WorkflowTabs';
+import Pricing from './Pricing';
 
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -19,6 +20,7 @@ function Landing () {
         <LogoClouds />
         <ShowCaseTabs />
         <WorkflowTabs />
+        <Pricing />
       </div>
     );
 }
