@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],  
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'transform': 'transform',
+      },
+      scale: {
+        '110': '1.5',
+      },
+    },
     screens: {
       "_sm": {
         max: "840px",
@@ -27,4 +34,7 @@ module.exports = {
     } 
   },
   plugins: [],
+  variants: {
+    scale: ['responsive', 'hover'],
+  },
 }
