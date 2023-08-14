@@ -24,7 +24,7 @@ const features = [
 
 export default function Example() {
   return (
-    <div className="pb-24 overflow-hidden text-white bg-center bg-cover sm:pb-32">
+    <div className="pb-3 overflow-hidden text-white bg-center bg-cover sm:pb-32">
       <div className="px-6 max-w-7xl lg:px-8">
         <div className="grid max-w-2xl grid-cols-1 mx-auto text-left gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
