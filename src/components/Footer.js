@@ -20,15 +20,15 @@ const stats = [
             <div className="flex items-center justify-center"><img src="https://websitedesignengine.com/assets/images/dmc.png" className="w-[100px] h-[100px]"></img></div>
             <div className="flex flex-row items-center justify-center">
               <button className="text-sm w-[180px] h-[40px] ml-7 bg-gradient-to-r from-[#f0562d] to-[#E81081] hover:translate-y-[-10px] transition-transform duration-700 ease-in-out text-white font-bold py-2 px-4 rounded">
-                CONTACT US
+                CONTACT
               </button>
-              <button className="text-sm w-[180px] h-[40px] ml-2 bg-transparent border border-[#f0562d] hover:translate-y-[-10px] transition-transform duration-700 ease-in-out text-white font-bold py-2 px-4 rounded">
+              <button className="text-sm w-[200px] h-[40px] ml-2 bg-transparent border border-[#f0562d] hover:translate-y-[-10px] transition-transform duration-700 ease-in-out text-white font-bold py-2 px-4 rounded">
                 GET STARTED
               </button>
             </div>
           </dl>
         </div>
-        <div className="mt-20 text-center text-[#727273] pt-6 text-base font-bold">Copyright © 2023 Pirates Web. All Rights Reserved.</div>
+        <div className="mt-20 text-center text-[#727273] pt-6 text-base font-medium">Copyright © 2023 Pirates Web. All Rights Reserved.</div>
       </div>
     )
   }
