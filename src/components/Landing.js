@@ -9,6 +9,7 @@ import ShowCaseTabs from './ShowCaseTabs';
 import WorkflowTabs from './WorkflowTabs';
 import Pricing from './Pricing';
 import Idea from './Idea';
+import Contact from './Contact';
 
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -23,6 +24,7 @@ function Landing () {
         <WorkflowTabs />
         <Pricing />
         <Idea />
+        <Contact />
       </div>
     );
 }
