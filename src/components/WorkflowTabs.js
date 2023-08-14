@@ -22,7 +22,7 @@ export default function Example() {
     <div className='w-full bg-[#181818] flex items-center justify-center'>
         <div className="w-3/4 px-2 py-16 sm:px-0">
         <Tab.Group>
-            <Tab.List className="h-[60px] grid grid-cols-4 p-1 space-x-1 gap-2">
+            <Tab.List className="h-[60px] grid grid-cols-2 p-1 space-x-1 gap-2 lg:grid-cols-4">
             {tabData.map((category) => (
                 <Tab className={({ selected }) =>
                     classNames(

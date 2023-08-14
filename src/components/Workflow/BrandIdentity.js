@@ -35,7 +35,7 @@ export default function Example() {
               </p>
               <dl className="max-w-xl mt-10 space-y-8 text-base leading-7 lg:max-w-none">
                 {features.map((feature) => (
-                  <div key={feature.name} className="flex flex-row pl-9">
+                  <div key={feature.name} className="flex flex-col gap-3 lg:flex-row pl-9">
                       <img src={feature.image} className='w-10 h-10 mr-10'></img>
                       <div className='flex flex-col'>
                           <p className='text-xl'>{feature.name}</p>
@@ -46,7 +46,7 @@ export default function Example() {
               </dl>
             </div>
             <div className='flex flex-row items-center w-full'>
-            <button className="w-3/4 mt-10 h-[60px] ml-7 bg-gradient-to-r from-[#f0562d] to-[#E81081] hover:translate-y-[-10px] transition-transform duration-700 ease-in-out text-white font-bold py-2 px-4 rounded">
+            <button className="w-full lg:w-3/4 mt-10 h-[60px] ml-7 bg-gradient-to-r from-[#f0562d] to-[#E81081] hover:translate-y-[-10px] transition-transform duration-700 ease-in-out text-white font-bold py-2 px-4 rounded">
                 GET YOUR ECOMMERCE PROJECT STARTED
             </button>
           </div>
